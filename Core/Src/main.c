@@ -82,11 +82,6 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc) {
 	adc_val = buffer;
 	c++;
 
-	/*
-	 HAL_UART_Transmit(&huart2, (uint8_t*) cBuff, strlen(cBuff),
-	 HAL_MAX_DELAY);
-	 */
-
 }
 
 /* USER CODE END 0 */
